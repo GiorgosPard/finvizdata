@@ -238,7 +238,7 @@ def loop():
 while True:
     data=loop()
     data.to_csv('finvizdata.csv')
-    sleep(900)
+    time.sleep(900)
 
 
 # In[ ]:
